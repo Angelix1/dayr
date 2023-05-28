@@ -19,7 +19,7 @@
 
 ## Tools
 - [x] Write scripts that automate undecrypting process for all files.
-- [x] Write scripts that cleans most files (Dirty .lua).
+- [x] Write scripts that cleans most files (clean.lua).
 - [x] Write scripts that fix localization (localization.lua).
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
 - [ ] Fix the issue of "cannot read nil of "main"'.
