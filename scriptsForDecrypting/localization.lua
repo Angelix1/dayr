@@ -134,7 +134,7 @@ function _table(node)
     table.insert(output,output_str)
     output_str = table.concat(output)
 
-    return output_str
+    return "return "..output_str
 end
 
 function extractLocalizationString(inputString)
@@ -172,7 +172,7 @@ local cleannest = createNestedTable(strings)
 local cleannested = _table(cleannest)
 
 
-out = io.open("./"..outputfile..".lua", "a")
+out = io.open("./"..outputfile..".lua", "w")
 out:write(cleannested, "\n")
 out:close()
 
