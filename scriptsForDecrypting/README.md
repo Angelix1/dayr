@@ -1,3 +1,10 @@
+# Manual
+## Termux
+- A script to undecrypt .lu to .lua in dirty unreable state.
+## Windows BAT
+- A script to undecrypt .lu to .lua in dirty unreable state.
+
+
 # clean.lua
 - <b>THIS SCRIPT (clean.lua) IS FOR DECRYPTING FILES THAT CAN BE DCRYPTED AND NOT FOR LOCALIZATION FILES<b>
   - This file will produce a folder recursively depends on the file name and will create a file called `temp.lua` (DO NOT TOUCH).
