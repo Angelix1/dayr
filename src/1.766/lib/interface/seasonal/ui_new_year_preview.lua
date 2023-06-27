@@ -1,0 +1,244 @@
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1, L11_1, L12_1, L13_1, L14_1, L15_1, L16_1
+L0_1 = main
+L0_1 = L0_1.interface
+L1_1 = {}
+L2_1 = SWK
+L2_1 = L2_1 * 0.8
+L3_1 = L2_1 * 0.6
+L4_1 = main
+L4_1 = L4_1.button
+L5_1 = L4_1
+L4_1 = L4_1.init
+L6_1 = {}
+L6_1.id = "nyp_close"
+L7_1 = {}
+L8_1 = {}
+L8_1.defaultFile = "shop_button2"
+L8_1.overFile = "shop_button2_over"
+L9_1 = SHK
+L9_1 = L9_1 * 0.06
+L8_1.width = L9_1
+L7_1[1] = L8_1
+L6_1.obj = L7_1
+L6_1.soundId = "button_menu"
+function L7_1()
+  local L0_2, L1_2, L2_2
+  L0_2 = L0_1
+  L1_2 = L0_2
+  L0_2 = L0_2.close
+  L2_2 = "new_year_preview"
+  L0_2(L1_2, L2_2)
+end
+L6_1.action = L7_1
+L4_1(L5_1, L6_1)
+L4_1 = main
+L4_1 = L4_1.button
+L5_1 = L4_1
+L4_1 = L4_1.init
+L6_1 = {}
+L6_1.id = "nyp_ok"
+L7_1 = {}
+L8_1 = {}
+L8_1.defaultFile = "ny_button2"
+L8_1.overFile = "ny_button2_over"
+L9_1 = L2_1 * 0.25
+L8_1.width = L9_1
+L9_1 = {}
+L10_1 = strings
+L10_1 = L10_1.allright
+L9_1.text = L10_1
+L10_1 = L2_1 * 0.22
+L9_1.widthMax = L10_1
+L10_1 = SHK
+L10_1 = L10_1 * 0.042
+L9_1.fontSize = L10_1
+L9_1.color = "beige"
+L7_1[1] = L8_1
+L7_1[2] = L9_1
+L6_1.obj = L7_1
+L6_1.soundId = "button_menu"
+function L7_1()
+  local L0_2, L1_2, L2_2
+  L0_2 = L0_1
+  L1_2 = L0_2
+  L0_2 = L0_2.close
+  L2_2 = "new_year_preview"
+  L0_2(L1_2, L2_2)
+end
+L6_1.action = L7_1
+L4_1(L5_1, L6_1)
+L5_1 = L0_1
+L4_1 = L0_1.init
+L6_1 = {}
+L6_1.id = "new_year_preview"
+L6_1.layer = "ui_main"
+L6_1.block = true
+L6_1.alpha = 0.5
+L7_1 = {}
+L8_1 = {}
+L9_1 = {}
+L10_1 = "image/interface/new_year/new_year_welcome.jpg"
+L11_1 = "image/interface/new_year/new_year_welcome_mask.jpg"
+L9_1[1] = L10_1
+L9_1[2] = L11_1
+L8_1.composite = L9_1
+L8_1.filter = "composite.custom.mask"
+L8_1.width = L2_1
+L8_1.height = L3_1
+L9_1 = {}
+L9_1.id = "titleBg"
+L9_1.image = "ny_light_line"
+L9_1.color = "cyan"
+L10_1 = SHK
+L10_1 = L10_1 * 0.12
+L9_1.width = L10_1
+L9_1.rotation = 90
+L10_1 = -L3_1
+L10_1 = L10_1 * 0.32
+L9_1.y = L10_1
+L10_1 = -L2_1
+L10_1 = L10_1 * 0.165
+L9_1.x = L10_1
+L10_1 = {}
+L10_1.id = "title"
+L10_1.text = ""
+L11_1 = L2_1 * 0.5
+L10_1.widthMax = L11_1
+L11_1 = SHK
+L11_1 = L11_1 * 0.07
+L10_1.fontSize = L11_1
+L10_1.font = "russo_one"
+L10_1.color = "white"
+L11_1 = -L3_1
+L11_1 = L11_1 * 0.32
+L10_1.y = L11_1
+L11_1 = -L2_1
+L11_1 = L11_1 * 0.165
+L10_1.x = L11_1
+L11_1 = {}
+L11_1.id = "subtitle"
+L11_1.text = ""
+L12_1 = L2_1 * 0.5
+L11_1.widthMax = L12_1
+L12_1 = SHK
+L12_1 = L12_1 * 0.033
+L11_1.fontSize = L12_1
+L11_1.font = "russo_one"
+L11_1.color = "cyan"
+L12_1 = -L3_1
+L12_1 = L12_1 * 0.24
+L11_1.y = L12_1
+L12_1 = -L2_1
+L12_1 = L12_1 * 0.165
+L11_1.x = L12_1
+L12_1 = {}
+L12_1.image = "divider_horizontal"
+L13_1 = L2_1 * 0.38
+L12_1.width = L13_1
+L13_1 = SHK
+L13_1 = L13_1 * 0.005
+L12_1.height = L13_1
+L12_1.color = "new_year_gold"
+L13_1 = -L3_1
+L13_1 = L13_1 * 0.19
+L12_1.y = L13_1
+L13_1 = -L2_1
+L13_1 = L13_1 * 0.165
+L12_1.x = L13_1
+L13_1 = {}
+L13_1.id = "text"
+L13_1.text = ""
+L14_1 = L2_1 * 0.4
+L13_1.width = L14_1
+L13_1.color = "new_year_gold"
+L14_1 = SHK
+L14_1 = L14_1 * 0.033
+L13_1.fontSize = L14_1
+L14_1 = -L3_1
+L14_1 = L14_1 * 0.155
+L13_1.top = L14_1
+L14_1 = -L2_1
+L14_1 = L14_1 * 0.165
+L13_1.x = L14_1
+L14_1 = {}
+L14_1.button = "nyp_ok"
+L15_1 = L3_1 * 0.4
+L14_1.y = L15_1
+L15_1 = -L2_1
+L15_1 = L15_1 * 0.165
+L14_1.x = L15_1
+L15_1 = {}
+L15_1.id = "buttonClose"
+L15_1.button = "nyp_close"
+L16_1 = L2_1 * 0.48
+L15_1.right = L16_1
+L16_1 = -L3_1
+L16_1 = L16_1 * 0.46
+L15_1.top = L16_1
+L7_1[1] = L8_1
+L7_1[2] = L9_1
+L7_1[3] = L10_1
+L7_1[4] = L11_1
+L7_1[5] = L12_1
+L7_1[6] = L13_1
+L7_1[7] = L14_1
+L7_1[8] = L15_1
+L6_1.obj = L7_1
+function L7_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
+  L1_2 = A0_2.title
+  L2_2 = L1_2
+  L1_2 = L1_2.setText
+  L3_2 = utf8
+  L3_2 = L3_2.upper
+  L4_2 = strings
+  L4_2 = L4_2.quests
+  L4_2 = L4_2.new_year2022
+  L4_2 = L4_2.name
+  L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2)
+  L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
+  L1_2 = A0_2.subtitle
+  L2_2 = L1_2
+  L1_2 = L1_2.setText
+  L3_2 = utf8
+  L3_2 = L3_2.upper
+  L4_2 = strings
+  L4_2 = L4_2.new_year_welcome
+  L4_2 = L4_2.subtitle
+  L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2)
+  L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
+  L1_2 = A0_2.text
+  L2_2 = L1_2
+  L1_2 = L1_2.setText
+  L3_2 = strings
+  L3_2 = L3_2.new_year_welcome
+  L3_2 = L3_2.text
+  L1_2(L2_2, L3_2)
+  L1_2 = main
+  L1_2 = L1_2.obj
+  L2_2 = L1_2
+  L1_2 = L1_2.scaling
+  L3_2 = A0_2.titleBg
+  L4_2 = {}
+  L5_2 = A0_2.title
+  L6_2 = L5_2
+  L5_2 = L5_2.getWidth
+  L5_2 = L5_2(L6_2)
+  L5_2 = L5_2 * 1.1
+  L4_2.height = L5_2
+  L5_2 = SHK
+  L5_2 = L5_2 * 0.12
+  L4_2.width = L5_2
+  L1_2(L2_2, L3_2, L4_2)
+end
+L6_1.create = L7_1
+function L7_1(A0_2)
+  local L1_2, L2_2, L3_2
+  L1_2 = L0_1
+  L2_2 = L1_2
+  L1_2 = L1_2.remove
+  L3_2 = A0_2.id
+  L1_2(L2_2, L3_2)
+end
+L6_1.close = L7_1
+L4_1(L5_1, L6_1)
