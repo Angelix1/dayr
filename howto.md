@@ -64,7 +64,51 @@ until you need to mess the file obviously.
 # How to use `auto_pack.bat`
 It's basically just a batch script that automatically pack a listed file that we give
 ```cmd
+@echo off
+setlocal enabledelayedexpansion
 
+rem List of Lua files to compile
+set Arr[0]=lib.items.armor
+set Arr[1]=lib.items.custom_armor
+set Arr[2]=lib.items.ammo
+set Arr[3]=lib.items.custom_ammo
+set Arr[4]=main
 
+rem Loop through the list and compile each element
+set "x=0"
 
+:SymLoop
+if not defined Arr[%x%] goto :endLoop
+call set VAL=%%Arr[%x%]%%
+
+echo encrypting %VAL%
+luac.exe -o %VAL%.lu %VAL%.lua
+echo ..
+
+SET /a "x+=1"
+GOTO :SymLoop
+
+:endLoop
+echo "Done"
+```
+The code basically, do loop and then do
+`luac.exe -o lib.items.armor.lu lib.items.armor.lua`
+`luac.exe -o lib.items.custom_armor.lu lib.items.custom_armor.lua`
+`luac.exe -o lib.items.ammo.lu lib.items.ammo.lua`
+`luac.exe -o lib.items.custom_ammo.lu lib.items.custom_ammo.lua`
+`luac.exe -o main.lu  main.lua`
+then
+`echo Done`
+you can add more stuff to it yk just make sure the numbering is correct<br>
+Correct numbering _(adding the previous one we continue to 5 since we already have 4 beforehand, or you can replace the original one)_
+```cmd
+set Arr[5]=lib.items.trash
+set Arr[6]=lib.items.food
+set Arr[7]=lib.items.custom_food
+```
+Incorrect numbering
+```cmd
+set Arr[0]=lib.items.trash
+set Arr[1]=lib.items.food
+set Arr[7]=lib.items.custom_food
 ```
