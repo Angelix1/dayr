@@ -13,10 +13,11 @@
 | LuaC 5.1.X              | Preferably from Solar2D, can be located `<Solar2dRoot>/Native\Corona\win\bin`                               | Used to Repack to `resource.car`                |
 
 ## Repositories Contents
-| Name      | Type         | Description                                           | Usage                                        |
-|-----------|--------------|-------------------------------------------------------|--------------------------------------------  |
-| clean.lua | Lua Script   | Script to clean dirty lua from Unluac.jar decryption. | `lua clean.lua <file [lib.items.armor.lua]>` |
-| en.lua    | Local Module | check `explanation.md` why it's needed                | -                                            |
+| Name          | Type         | Description                                           | Usage                                        |
+|-----------    |--------------|-------------------------------------------------------|--------------------------------------------  |
+| clean.lua     | Lua Script   | Script to clean dirty lua from Unluac.jar decryption. | `lua clean.lua <file [lib.items.armor.lua]>` |
+| en.lua        | Local Module | check `explanation.md` why it's needed                | -                                            |
+| auto_pack.bat | Local Module | Use to automatically repack everything                | Need windows CMD to run                      |
 
 
 ## Markdown files
@@ -32,3 +33,4 @@
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
 - [ ] Fix the issue of "cannot read nil of "main"'.
 - [ ] Automate the cleaning process.
+- [x] Automate repacking.
