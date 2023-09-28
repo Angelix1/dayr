@@ -12,18 +12,23 @@
 | Lua 5.1.X               | Install on the machine (google on how, ;-;)                                                                 | Used to run `clean.lua` and other lua scripts   |
 | LuaC 5.1.X              | Preferably from Solar2D, can be located `<Solar2dRoot>/Native\Corona\win\bin`                               | Used to Repack to `resource.car`                |
 
-
-
-
-
 ## Repositories Contents
-| Name      | Type         | Description                                           | Usage                                      |
-|-----------|--------------|-------------------------------------------------------|--------------------------------------------|
-| clean.lua | Lua Script   | Script to clean dirty lua from Unluac.jar decryption. | lua clean.lua <file [lib.items.armor.lua]> |
-| en.lua    | Local Module | check `explanation.md` why it's needed                | -                                          |
+| Name      | Type         | Description                                           | Usage                                        |
+|-----------|--------------|-------------------------------------------------------|--------------------------------------------  |
+| clean.lua | Lua Script   | Script to clean dirty lua from Unluac.jar decryption. | `lua clean.lua <file [lib.items.armor.lua]>` |
+| en.lua    | Local Module | check `explanation.md` why it's needed                | -                                            |
 
 
-## Tools
+## Markdown files
+- `explanation.md` = Will explains how scripts works or some modules needed.
+- `howto.md` = will explains how to modify something or add somethings.
+- `known_issue.md` = welp, issue that i already know.
+- `README.md` = you literally reading it right now.
+
+## Interested?
+- Join [Discord Server](https://discord.gg/t4tGRkMfYX) where i do the modding _(you can help if you want)_.
+
+## To-Do
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
 - [ ] Fix the issue of "cannot read nil of "main"'.
 - [ ] Automate the cleaning process.
