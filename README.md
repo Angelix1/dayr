@@ -14,7 +14,7 @@
 | Name      | Type      | Description                                                                                                                   | Usage                                      |
 |-----------|-----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | clean.lua | Lua Scrpt | Script to clean dirty lua from Unluac.jar decryption.                                                                         | `lua clean.lua <file [lib.items.armor.lua]>` |
-| en.lua    | Local Module   | a module used to clean lua files that needs "strings", put it on under locals of the file you trying to clean, check `test.lua` | `local strings = dofile("en.lua")`           |
+| en.lua    | Local Module   | a module used to clean lua files that needs "strings", put it on under locals of the file you trying to clean, check `test.lua` or `explanation.md` | `local strings = dofile("en.lua")`           |
 
 ## Tools
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
