@@ -11,16 +11,12 @@
 | Python                  | Install on the machine (google on how, lol)                                                             | Used to run corona-archiver.py |
 
 ## Repositories Contents
-
-| Foler Name              | Description |
-| -----------             | ----------- |
-| Src                     | Consist of dayr source code i can scrap. |
-| scriptsForDecrypting    | Consist of lua scripts i use to cleans the files manually. |
+| Name      | Type      | Description                                                                                                                   | Usage                                      |
+|-----------|-----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| clean.lua | Lua Scrpt | Script to clean dirty lua from Unluac.jar decryption.                                                                         | `lua clean.lua <file [lib.items.armor.lua]>` |
+| en.lua    | Local Module   | a module used to clean lua files that needs "strings", put it on under locals of the file you trying to clean, check `test.lua` | `local strings = dofile("en.lua")`           |
 
 ## Tools
-- [x] Write scripts that automate undecrypting process for all files.
-- [x] Write scripts that cleans most files (clean.lua).
-- [x] Write scripts that fix localization (localization.lua).
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
 - [ ] Fix the issue of "cannot read nil of "main"'.
 - [ ] Automate the cleaning process.
