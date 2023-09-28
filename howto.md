@@ -91,14 +91,14 @@ GOTO :SymLoop
 :endLoop
 echo "Done"
 ```
-The code basically, do loop and then do
-`luac.exe -o lib.items.armor.lu lib.items.armor.lua`
-`luac.exe -o lib.items.custom_armor.lu lib.items.custom_armor.lua`
-`luac.exe -o lib.items.ammo.lu lib.items.ammo.lua`
-`luac.exe -o lib.items.custom_ammo.lu lib.items.custom_ammo.lua`
-`luac.exe -o main.lu  main.lua`
-then
-`echo Done`
+The code basically, do loop and then do<br>
+`luac.exe -o lib.items.armor.lu lib.items.armor.lua`<br>
+`luac.exe -o lib.items.custom_armor.lu lib.items.custom_armor.lua`<br>
+`luac.exe -o lib.items.ammo.lu lib.items.ammo.lua`<br>
+`luac.exe -o lib.items.custom_ammo.lu lib.items.custom_ammo.lua`<br>
+`luac.exe -o main.lu  main.lua`<br>
+then<br>
+`echo Done`<br>
 you can add more stuff to it yk just make sure the numbering is correct<br>
 Correct numbering _(adding the previous one we continue to 5 since we already have 4 beforehand, or you can replace the original one)_
 ```cmd
