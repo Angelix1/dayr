@@ -2,15 +2,15 @@
 
 ## Required Files
 
-| Name                    | How to get                                                                                                  | Description                        |
-| -----------             | -----------                                                                                                 | -----------                        |
-| Resource.car            | Can be retrieve from the game (assets/resource.car)                                                         | Game's Data                        |
-| Corona-archiver.py      | [Github](https://github.com/0BuRner/corona-archiver)                                                        | Used to Extract resource.car       |
-| Unluac.jar              | [souceforge](https://sourceforge.net/projects/unluac/) \| [GitHub](https://github.com/HansWessels/unluac)   | Used to Convert .lu to .lua        | 
-| Java                    | Install on the machine (Google on how, bruh)                                                                | Used to run unluac.jar             |
-| Python                  | Install on the machine (google on how, lol)                                                                 | Used to run corona-archiver.py     |
-| Lua 5.1.X               | Install on the machine (google on how, lol)                                                                 | Used to run corona-archiver.py     |
-| LuaC 5.1.X              | Preferably from Solar2D, can be located `<Solar2dRoot>/Native\Corona\win\bin`                               | Used to Repack to `resource.car`   |
+| Name                    | How to get                                                                                                  | Description                                     |
+| -----------             | -----------                                                                                                 | -----------                                     |
+| Resource.car            | Can be retrieve from the game (assets/resource.car)                                                         | Game's Data                                     |
+| Corona-archiver.py      | [Github](https://github.com/0BuRner/corona-archiver)                                                        | Used to Extract resource.car                    |
+| Unluac.jar              | [souceforge](https://sourceforge.net/projects/unluac/) \| [GitHub](https://github.com/HansWessels/unluac)   | Used to Convert .lu to .lua                     | 
+| Java                    | Install on the machine (Google on how, bruh)                                                                | Used to run unluac.jar                          |
+| Python                  | Install on the machine (google on how, lol)                                                                 | Used to run corona-archiver.py                  |
+| Lua 5.1.X               | Install on the machine (google on how, ;-;)                                                                 | Used to run `clean.lua` and other lua scripts   |
+| LuaC 5.1.X              | Preferably from Solar2D, can be located `<Solar2dRoot>/Native\Corona\win\bin`                               | Used to Repack to `resource.car`                |
 
 
 
