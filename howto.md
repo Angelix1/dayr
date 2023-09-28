@@ -61,3 +61,10 @@ BOOM, you now have separate file. <br>
 from now on you can just modify `lib.items.custom_drink` without ever touching `lib.items.drink` again<br>
 until you need to mess the file obviously.
 
+# How to use `auto_pack.bat`
+It's basically just a batch script that automatically pack a listed file that we give
+```cmd
+
+
+
+```
