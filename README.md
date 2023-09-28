@@ -12,9 +12,11 @@
 
 ## Repositories Contents
 | Name      | Type      | Description                                                                                                                   | Usage                                      |
-|-----------|-----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| clean.lua | Lua Scrpt | Script to clean dirty lua from Unluac.jar decryption.                                                                         | `lua clean.lua <file [lib.items.armor.lua]>` |
-| en.lua    | Local Module   | check `explanation.md` why it's needed | `local strings = dofile("en.lua")`           |
+| Name      | Type         | Description                                           | Usage                                      |
+|-----------|--------------|-------------------------------------------------------|--------------------------------------------|
+| clean.lua | Lua Script   | Script to clean dirty lua from Unluac.jar decryption. | lua clean.lua <file [lib.items.armor.lua]> |
+| en.lua    | Local Module | check `explanation.md` why it's needed                | -                                          |
+
 
 ## Tools
 - [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
