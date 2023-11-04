@@ -1,0 +1,72 @@
+// use <GROUP_0>, <GROUP_1> instead of /1 /2
+[
+	{
+		"id": "luacleanermenu",
+		"caption": "LuaCleaner",
+		"children": [
+			{
+				"id": "rem_un_comma",
+				"caption": "Remove Unnecessary Comma on Last Element",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "\",\n(\\s+)}",
+					"endP": "\"\n<GROUP_0>}"
+				}
+			},
+			{
+				"id": "fix_named_val",
+				"caption": "Fix Named with Value",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+(\"[A-z0-9_]+\"),\n\\s+([0-9]+),?\n\\s+}",
+					"endP": "{ <GROUP_0>, <GROUP_1> }"
+				}
+			},
+			{
+				"id": "fix_item",
+				"caption": "Fix item: [item, count]",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+([\\S_]+),\n\\s+(\\d+|true|false),?\n\\s+}",
+					"endP": "{ <GROUP_0>, <GROUP_1> }"
+				}
+			},
+			{
+				"id": "fix_item_normal",
+				"caption": "Fix item: [item, count, deprecation]",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+([\\S_]+),\n\\s+(\\d+),\n\\s+(\\d+|true|false),?\n\\s+}",
+					"endP": "{ <GROUP_0>, <GROUP_1>, <GROUP_2> }"
+				}
+			},
+			{
+				"id": "fix_item_with_range",
+				"caption": "Fix item: [item, range_count, deprecation]",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+([\\S_]+),\n\\s+{\n\\s+(\\d+),\n\\s+(\\d+),?\n\\s+},\n\\s+(\\d+|true|false),?\n\\s+}",
+					"endP": "{ <GROUP_0>, { <GROUP_1>, <GROUP_2> }, <GROUP_3> }"
+				}
+			},
+			{
+				"id": "fix_range_val",
+				"caption": "Fix Range Value",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+([0-9]+),\n\\s+([0-9]+),?\n\\s+}",
+					"endP": "{ <GROUP_0>, <GROUP_1> }"
+				}
+			},
+			{
+				"id": "fix_triple_digit",
+				"caption": "Fix Triple Digit",
+				"command": "dynamic_replace",
+				"args": {
+					"findS": "{\n\\s+([\\d\\.]+),\n\\s+([\\d\\.]+),\n\\s+([\\d\\.]+),?\n\\s+}",
+					"endP": "{ <GROUP_0>, <GROUP_1>, <GROUP_2> }"
+				}
+			}			
+		]
+	}
+]
