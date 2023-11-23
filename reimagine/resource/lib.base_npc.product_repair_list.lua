@@ -1,668 +1,419 @@
-local L0_1, L1_1, L2_1
-L0_1 = {}
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "nail_club"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "racer_bat"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "custom_spear"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mlp"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "shashka"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hammer"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "iron_spear"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "steel_spear"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "chitin_spear"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "berdish"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "shock_mace"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow2"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow3"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow_p"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow2_p"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "crossbow3_p"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "pm"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "pm_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "tt"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "tt_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "aps"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "aps_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "nagant"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "nagant_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mauser"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mauser_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "armorpiercer"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "armorpiercer_dual"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "homemade_gun"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "homemade_rifle"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "izh"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "izh_short"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "toz"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "toz_short"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "saiga"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "pepperbox"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "flamethrower"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "musket"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "custom_rifle"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mosin"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mosin_short"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "mosin_sniper"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "svt"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "svd"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "svu"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "pps"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "ppsh"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "custom_ar"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "aks74u"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "ak74_single"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "abakan"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "custom_mg"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "rpk74"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "dp"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "pk"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "polar_axe"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "icicle_thrower"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "cyberglove"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frosthorn"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frost_thrower"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frost_launcher"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frost_staff"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frost_fist"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "revolver_rifle"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "emba_machete"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "emba_pp"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "emba_scalpel"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "biothrower"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "emba_minigun"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "emba_crossbow"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "ordinary_clothes"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "handmade_clothes"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "military_clothes"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "military_clothes2"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "motorway_armor"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "military_armor"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "racer_armor"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "military_armor2"
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "leather_armor"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "iron_armor"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "chitin_armor"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "steel_armor"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "tank_armor"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "ozk"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "combined_armor"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "leshyi"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "science_armor"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "miner_armor"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor_1"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor_2"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor_3"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor_4"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor_5"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "polar_armor_1"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "polar_armor_2"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "polar_armor_3"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "demon_armor"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "hunter_armor"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "invisibility_cloak"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "frost_armor"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "arctic_armor"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "tactical_armor"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "bicycle"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "bicycle_cart"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "telega"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "motocart"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "moto"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "chopper"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "electro_mobile"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "classic_mobile"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "vaz2101"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "gaz24"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "gaz24_black"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "uaz"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "uaz452"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "rover"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "gaz66"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "zil130"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "kamaz"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "kraz255"
-L2_1.workshopLevel = 2
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "magic_carpet"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "belaz"
-L2_1.workshopLevel = 3
-L0_1[L1_1] = L2_1
-L1_1 = #L0_1
-L1_1 = L1_1 + 1
-L2_1 = {}
-L2_1.id = "rover"
-L2_1.workshopLevel = 1
-L0_1[L1_1] = L2_1
-return L0_1
+return {
+	{
+		id = "nail_club",
+	},
+	{
+		id = "racer_bat",
+	},
+	{
+		id = "custom_spear",
+	},
+	{
+		id = "mlp",
+	},
+	{
+		id = "shashka",
+	},
+	{
+		id = "hammer",
+	},
+	{
+		id = "iron_spear",
+	},
+	{
+		id = "steel_spear",
+	},
+	{
+		id = "chitin_spear",
+	},
+	{
+		id = "berdish",
+	},
+	{
+		id = "shock_mace",
+	},
+	{
+		id = "crossbow",
+	},
+	{
+		id = "crossbow2",
+	},
+	{
+		id = "crossbow3",
+	},
+	{
+		id = "crossbow_p",
+	},
+	{
+		id = "crossbow2_p",
+	},
+	{
+		id = "crossbow3_p",
+	},
+	{
+		id = "pm",
+	},
+	{
+		id = "pm_dual",
+	},
+	{
+		id = "tt",
+	},
+	{
+		id = "tt_dual",
+	},
+	{
+		id = "aps",
+	},
+	{
+		id = "aps_dual",
+	},
+	{
+		id = "nagant",
+	},
+	{
+		id = "nagant_dual",
+	},
+	{
+		id = "mauser",
+	},
+	{
+		id = "mauser_dual",
+	},
+	{
+		id = "armorpiercer",
+	},
+	{
+		id = "armorpiercer_dual",
+	},
+	{
+		id = "homemade_gun",
+	},
+	{
+		id = "homemade_rifle",
+	},
+	{
+		id = "izh",
+	},
+	{
+		id = "izh_short",
+	},
+	{
+		id = "toz",
+	},
+	{
+		id = "toz_short",
+	},
+	{
+		id = "saiga",
+	},
+	{
+		id = "pepperbox",
+	},
+	{
+		id = "flamethrower",
+	},
+	{
+		id = "musket",
+	},
+	{
+		id = "custom_rifle",
+	},
+	{
+		id = "mosin",
+	},
+	{
+		id = "mosin_short",
+	},
+	{
+		id = "mosin_sniper",
+	},
+	{
+		id = "svt",
+	},
+	{
+		id = "svd",
+	},
+	{
+		id = "svu",
+	},
+	{
+		id = "pps",
+	},
+	{
+		id = "ppsh",
+	},
+	{
+		id = "custom_ar",
+	},
+	{
+		id = "aks74u",
+	},
+	{
+		id = "ak74_single",
+	},
+	{
+		id = "abakan",
+	},
+	{
+		id = "custom_mg",
+	},
+	{
+		id = "rpk74",
+	},
+	{
+		id = "dp",
+	},
+	{
+		id = "pk",
+	},
+	{
+		id = "polar_axe",
+	},
+	{
+		id = "icicle_thrower",
+	},
+	{
+		id = "cyberglove",
+	},
+	{
+		id = "frosthorn",
+	},
+	{
+		id = "frost_thrower",
+	},
+	{
+		id = "frost_launcher",
+	},
+	{
+		id = "frost_staff",
+	},
+	{
+		id = "frost_fist",
+	},
+	{
+		id = "revolver_rifle",
+	},
+	{
+		id = "emba_machete",
+	},
+	{
+		id = "emba_pp",
+	},
+	{
+		id = "emba_scalpel",
+	},
+	{
+		id = "biothrower",
+	},
+	{
+		id = "emba_minigun",
+	},
+	{
+		id = "emba_crossbow",
+	},
+	{
+		id = "ordinary_clothes",
+	},
+	{
+		id = "handmade_clothes",
+	},
+	{
+		id = "military_clothes",
+	},
+	{
+		id = "military_clothes2",
+	},
+	{
+		id = "motorway_armor",
+	},
+	{
+		id = "military_armor",
+	},
+	{
+		id = "racer_armor",
+	},
+	{
+		id = "military_armor2",
+	},
+	{
+		id = "leather_armor",
+		workshopLevel = 2,
+	},
+	{
+		id = "iron_armor",
+		workshopLevel = 2,
+	},
+	{
+		id = "chitin_armor",
+		workshopLevel = 2,
+	},
+	{
+		id = "steel_armor",
+		workshopLevel = 2,
+	},
+	{
+		id = "tank_armor",
+		workshopLevel = 3,
+	},
+	{
+		id = "ozk",
+		workshopLevel = 2,
+	},
+	{
+		id = "combined_armor",
+		workshopLevel = 2,
+	},
+	{
+		id = "leshyi",
+		workshopLevel = 2,
+	},
+	{
+		id = "science_armor",
+		workshopLevel = 3,
+	},
+	{
+		id = "miner_armor",
+		workshopLevel = 3,
+	},
+	{
+		id = "hunter_armor_1",
+		workshopLevel = 3,
+	},
+	{
+		id = "hunter_armor_2",
+		workshopLevel = 3,
+	},
+	{
+		id = "hunter_armor_3",
+		workshopLevel = 3,
+	},
+	{
+		id = "hunter_armor_4",
+		workshopLevel = 3,
+	},
+	{
+		id = "hunter_armor_5",
+		workshopLevel = 3,
+	},
+	{
+		id = "polar_armor_1",
+		workshopLevel = 3,
+	},
+	{
+		id = "polar_armor_2",
+		workshopLevel = 3,
+	},
+	{
+		id = "polar_armor_3",
+		workshopLevel = 3,
+	},
+	{
+		id = "demon_armor",
+		workshopLevel = 1,
+	},
+	{
+		id = "hunter_armor",
+		workshopLevel = 1,
+	},
+	{
+		id = "invisibility_cloak",
+		workshopLevel = 1,
+	},
+	{
+		id = "frost_armor",
+		workshopLevel = 1,
+	},
+	{
+		id = "arctic_armor",
+		workshopLevel = 1,
+	},
+	{
+		id = "tactical_armor",
+		workshopLevel = 1,
+	},
+	{
+		id = "bicycle",
+		workshopLevel = 1,
+	},
+	{
+		id = "bicycle_cart",
+		workshopLevel = 1,
+	},
+	{
+		id = "telega",
+		workshopLevel = 1,
+	},
+	{
+		id = "motocart",
+		workshopLevel = 1,
+	},
+	{
+		id = "moto",
+		workshopLevel = 1,
+	},
+	{
+		id = "chopper",
+		workshopLevel = 1,
+	},
+	{
+		id = "electro_mobile",
+		workshopLevel = 3,
+	},
+	{
+		id = "classic_mobile",
+		workshopLevel = 2,
+	},
+	{
+		id = "vaz2101",
+		workshopLevel = 2,
+	},
+	{
+		id = "gaz24",
+		workshopLevel = 2,
+	},
+	{
+		id = "gaz24_black",
+		workshopLevel = 2,
+	},
+	{
+		id = "uaz",
+		workshopLevel = 2,
+	},
+	{
+		id = "uaz452",
+		workshopLevel = 2,
+	},
+	{
+		id = "rover",
+		workshopLevel = 2,
+	},
+	{
+		id = "gaz66",
+		workshopLevel = 2,
+	},
+	{
+		id = "zil130",
+		workshopLevel = 2,
+	},
+	{
+		id = "kamaz",
+		workshopLevel = 2,
+	},
+	{
+		id = "kraz255",
+		workshopLevel = 2,
+	},
+	{
+		id = "magic_carpet",
+		workshopLevel = 1,
+	},
+	{
+		id = "belaz",
+		workshopLevel = 3,
+	},
+	{
+		id = "rover",
+		workshopLevel = 1,
+	},
+}
