@@ -1,4 +1,5 @@
 # DAY R SURVIVAL Modding tools, or whatever lol
+## Text Guide on how to Mod the game using PC, Check out [GUIDE \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide.md)
 
 ## Required Files
 
