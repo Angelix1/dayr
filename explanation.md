@@ -27,12 +27,12 @@ stack traceback:
 ```
 to fix this cleaning process, you can add 
 ```lua
-local strings = dofile('loca.lua')
+local strings = dofile('lib.localization.en.lua')
 ```
 and the code will looks like
 ```lua
 local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1, L11_1, L12_1, L13_1, L14_1, L15_1, L16_1, L17_1, L18_1, L19_1, L20_1
-local strings = dofile('en.lua')
+local strings = dofile('lib.localization.en.lua')
 L0_1 = {}
 L1_1 = #L0_1
 L1_1 = L1_1 + 1
