@@ -95,4 +95,5 @@ end
 local filename = arg[1]
 local c = dofile(filename)
 
+
 writeTableToFile("clean_"..filename, SS(c))
