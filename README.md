@@ -1,5 +1,5 @@
 # DAY R SURVIVAL Modding tools
-## DISCLAMER
+##  ⚠  DISCLAMER
 > This guide is only for **educational and personal use only**. It does not distribute, modify, or bypass any copyrighted game files, DRM protections, or multiplayer systems. The listed tools are publicly available and are provided **as-is**. The Author is not responsible for how users apply this information
 
 > Modding may violate some game's **Terms of Service (TOS)**. Users should check their game's EULA before proceeding.
@@ -41,8 +41,9 @@
 ## Interested?
 - Join [Discord Server](https://discord.gg/t4tGRkMfYX) where i do the modding _(you can help if you want)_.
 
-## To-Do
-- [x] Fix the issue of "cannot read nil of "strings"" and usable to clean most files(clean.lua).
-- [x] Automate the cleaning process.
-- [x] Automate repacking.
-- [ ] Fix the issue of "cannot read nil of "main"'.
+## 📜 License
+
+This guide is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
+You may share and modify this guide **for non-commercial purposes** as long as proper credit is given.  
+Commercial use is prohibited.
+
