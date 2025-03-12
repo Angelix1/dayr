@@ -1,9 +1,9 @@
 # Step-by-Step Guide on How to Mod Day R Survival
 
 ## DISCLAMER
->> This guide is only for **educational and personal use only**. It does not distribute, modify, or bypass any copyrighted game files, DRM protections, or multiplayer systems. The listed tools are publicly available and are provided **as-is**. The Author is not responsible for how users apply this information
+> This guide is only for **educational and personal use only**. It does not distribute, modify, or bypass any copyrighted game files, DRM protections, or multiplayer systems. The listed tools are publicly available and are provided **as-is**. The Author is not responsible for how users apply this information
 
->> Modding may violate some game's **Terms of Service (TOS)**. Users should check their game's EULA before proceeding.
+> Modding may violate some game's **Terms of Service (TOS)**. Users should check their game's EULA before proceeding.
 
 ## Requirements
 - Python
