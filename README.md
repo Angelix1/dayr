@@ -1,5 +1,12 @@
-# DAY R SURVIVAL Modding tools, or whatever lol
-## Text Guide on how to Mod the game using PC, Check out [GUIDE \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide.md)
+# DAY R SURVIVAL Modding tools
+## DISCLAMER
+> This guide is only for **educational and personal use only**. It does not distribute, modify, or bypass any copyrighted game files, DRM protections, or multiplayer systems. The listed tools are publicly available and are provided **as-is**. The Author is not responsible for how users apply this information
+
+> Modding may violate some game's **Terms of Service (TOS)**. Users should check their game's EULA before proceeding.
+
+
+## Text Guide on how to Mod the game using PC
+> Check out [GUIDE \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide.md)
 
 ## Required Files
 
@@ -14,8 +21,8 @@
 | LuaC 5.1.X              | Preferably from Solar2D Engine Directly, can be located `<Solar2dRoot>/Native/Corona/win/bin` (WINDOWS)     | Used to Convert `.lua` back to `.lu`            |
 
 ### Note: 
-For LUA and LUAC, alternatively you can use from `lua` folder from this repo, it's from Solar2D, but beware it might be incompatible with certain architecture and its for windows. 
-Lua and Luac version is `Lua 5.1.5  Copyright (C) 1994-2012 Lua.org, PUC-Rio`
+> For LUA and LUAC, alternatively you can use from `lua` folder from this repo, it's from Solar2D, but beware it might be incompatible with certain architecture and its for windows. 
+> Lua and Luac version is `Lua 5.1.5  Copyright (C) 1994-2012 Lua.org, PUC-Rio`
 
 ## Repositories Contents
 | Name          | Type         | Description                                                   | Usage                                        |
