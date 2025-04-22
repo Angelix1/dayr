@@ -6,7 +6,8 @@
 
 
 ## Text Guide on how to Mod the game using PC
-> Check out [GUIDE \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide.md)
+- [🇬🇧 English \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide/en.md)
+- [🇷🇺 Russia \(Click Me\)](https://github.com/Angelix1/dayr/blob/main/guide/ru.md)
 
 ## Required Files
 
