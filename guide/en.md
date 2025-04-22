@@ -68,7 +68,12 @@ python corona-archive.py -p modifiedLU resource.car
 ## Step 6 | End
 - After the Python script notifies you that the repack is successful, copy the modified `resource.car` and replace the original one in the APK.
 - After that, sign the APK so you can install it, either using `MT manager` on Android or using a keystore on PC (_look up how to do it on PC since I don't know myself_).
-- You're done! Feel free to install the APK and test it. If you encounter a problem like `cannot find ... on ...`, then it's probably a mismatched filename. If it's `bad argument` or `chunk error`, then how you encrypt the modified .lua files is in the wrong version of Lua compared what the version of LUA the game runs. This LUA version are super specific, let's say you pack it with Lua 5.1.5 from Android Termux, the game still gonna complain since it build probably using Windows architecture or SOLAR2D built it there. Whatever the case you better of using from `/lua` i gave on this repo (originated from SOLAR2D 2022 Windows) or Solar2D directly.
+- You're done! Feel free to install the APK and test it. 
+
+# Common Issue
+- `cannot find ... on ...`, then it's probably a mismatched filename. 
+- `bad argument` or `chunk error`, then how you encrypt the modified .lua files is in the wrong version of Lua compared what the version of LUA the game runs.
+> This LUA version are super specific, let's say you pack it with Lua 5.1.5 from Android Termux, the game still gonna complain since it build probably using Windows architecture or SOLAR2D built it there. Whatever the case you better of using from `/lua` i gave on this repo (originated from SOLAR2D 2022 Windows) or Solar2D directly.
 
 ## End Note:
 - I'd appreciate someone who can create a custom loader for Solar2D that loads .lua files directly instead of doing this tedious work of re-encrypting and decrypting. It would be awesome if the game could be unlocked like `World Conqueror` APKs, where they only need to use JSON files directly. Thanks for reading the guide, I suppose. Also, check out more notes on other `.md` files in this repo!
